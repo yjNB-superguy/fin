@@ -1,7 +1,6 @@
 import sys
 import os
 import time
-from streamlit import cli as stcli
 import streamlit as st
 import numpy as np
 import torch
@@ -207,4 +206,4 @@ if __name__ == '__main__':
         tt()
     else:
         sys.argv = ["streamlit", "run", sys.argv[0]]
-        sys.exit(stcli.main())
+        sys.exit(cli.main())
